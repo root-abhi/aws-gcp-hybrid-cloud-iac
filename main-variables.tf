@@ -1,6 +1,8 @@
 variable name {default="xcloud-project"}
 variable project {}
-variable credentials {}
+variable credentials {
+  default = var.google_credentials 
+]
 variable region {default = "europe-west2"}
 variable zones { default = ["europe-west2-a", "europe-west2-b"] }
 variable env { default = "dev" }
