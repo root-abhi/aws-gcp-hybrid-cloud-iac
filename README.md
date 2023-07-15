@@ -5,4 +5,3 @@
   d. web-server
   e. load balancer, auto scaler
 
-2.  
